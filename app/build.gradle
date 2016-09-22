@@ -24,4 +24,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile 'com.android.support:design:24.1.1'
+    compile 'com.android.support:support-v4:+'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile files('libs/gson-2.3.jar')
+    compile 'com.github.d-max:spots-dialog:0.7@aar'
+    compile project(':library')
 }
